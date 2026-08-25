@@ -1,7 +1,8 @@
 def evenodd(n):
     if n%2==0:
-        print("Even")
+        return "EVEN"
     else:
-        print("Odd")
+        return "ODD"   
 n=eval(input("Enter number :"))
-evenodd(n)
+x=evenodd(n)
+print(x)
